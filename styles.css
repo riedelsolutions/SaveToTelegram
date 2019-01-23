@@ -1,0 +1,41 @@
+body{
+	width: 180px;
+	height: 330px;
+	background-color: #00476b;
+}
+
+.content{
+	width:178px;
+	height: 329px;
+	background-color: #0088cc;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	text-align:center;
+	color:white;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.content img{
+	padding-top:20px;
+}
+
+.saveText{
+	font-size: 13px;
+}
+
+.support{
+	padding: 5px;
+	background-color: #00476b;
+	font-size: 11px;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+
+a:hover{
+	color:white;
+}

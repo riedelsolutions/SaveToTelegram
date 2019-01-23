@@ -1,0 +1,20 @@
+{
+	"name": "Save to Telegram",
+	"version": "1.0",
+	"description": "Save links, images, and text to your Saved Messages on Telegram",
+	"permissions":["storage"],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"manifest_version": 2,
+	"browser_action": {
+          "default_icon": {                  
+            "16": "images/telegramlogo.png",           
+            "24": "images/telegramlogo.png",           
+            "32": "images/telegramlogo.png"            
+          },
+          "default_title": "Save to Telegram",      
+          "default_popup": "index.html"      
+        }
+}
